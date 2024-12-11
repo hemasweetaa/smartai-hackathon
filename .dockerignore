@@ -1,0 +1,28 @@
+# Node modules (large and unnecessary for the image)
+node_modules
+
+# Production build output (will be recreated in the Dockerfile)
+build
+
+# Docker-related files
+.dockerignore
+Dockerfile
+docker-compose.yml
+
+# Git repository files
+.git
+.gitignore
+
+# Log files
+*.log
+
+# Environment files
+.env
+.env.local
+
+# Temporary files and directories
+*.swp
+*.swo
+*.tmp
+*.DS_Store
+Thumbs.db

@@ -1,0 +1,92 @@
+/* General styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f9;
+    color: #333;
+  }
+  
+  /* Dashboard container */
+  .dashboard-container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Header section */
+  .dashboard-header {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .dashboard-header h1 {
+    font-size: 2rem;
+    color: #444;
+  }
+  
+  .trigger-btn {
+    background-color: #ff4c4c;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .trigger-btn:hover {
+    background-color: #d43a3a;
+  }
+  
+  /* Main section */
+  .dashboard-main {
+    text-align: center;
+  }
+  
+  .dashboard-main h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .no-incidents {
+    font-size: 1.2rem;
+    color: #999;
+  }
+  
+  /* Incident Cards */
+  .incident-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .incident-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    transition: transform 0.3s ease;
+  }
+  
+  .incident-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .incident-card h3 {
+    margin-top: 0;
+    color: #ff4c4c;
+  }
+  
+  .incident-card p {
+    margin: 5px 0;
+    font-size: 1rem;
+    color: #555;
+  }
